@@ -6,7 +6,7 @@
 	<parent>
 		<artifactId>apple-boot-demo</artifactId>
 		<groupId>com.appleframework.demo</groupId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.2</version>
 	</parent>
 	<artifactId>apple-boot-demo-jetty</artifactId>
 	<name>apple-boot-demo-jetty</name>
@@ -250,5 +250,24 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
+	
+	<profiles>
+		<profile>
+			<id>localDM</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<distributionManagement>
+				<repository>
+					<id>internal.repo.release</id>
+					<url>http://192.168.3.233:8787/nexus/content/repositories/releases/</url>
+				</repository>
+				<snapshotRepository>
+					<id>internal.repo.snapshot</id>
+					<url>http://192.168.3.233:8787/nexus/content/repositories/snapshots/</url>
+				</snapshotRepository>
+			</distributionManagement>
+		</profile>
+	</profiles>
 
 </project>
