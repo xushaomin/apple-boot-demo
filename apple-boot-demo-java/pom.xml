@@ -8,8 +8,8 @@
 		<groupId>com.appleframework.demo</groupId>
 		<version>0.0.2</version>
 	</parent>
-	<artifactId>apple-boot-demo-tomcat</artifactId>
-	<name>apple-boot-demo-tomcat</name>
+	<artifactId>apple-boot-demo-java</artifactId>
+	<name>apple-boot-demo-java</name>
 	<url>http://maven.apache.org</url>
 
 	<dependencies>
@@ -24,23 +24,13 @@
 
 		<dependency>
 			<groupId>com.appleframework.boot</groupId>
-			<artifactId>apple-boot-tomcat</artifactId>
+			<artifactId>apple-boot-java</artifactId>
 		</dependency>
-		
 		<dependency>
 			<groupId>com.appleframework.config</groupId>
 			<artifactId>apple-config-diamond</artifactId>
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-web</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-webmvc</artifactId>
-		</dependency>
-			
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-validator</artifactId>

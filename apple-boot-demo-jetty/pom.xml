@@ -12,39 +12,33 @@
 	<name>apple-boot-demo-jetty</name>
 	<url>http://maven.apache.org</url>
 
-
-	<properties>
-		<apple.version>0.0.4.RELEASE</apple.version>
-		<boot.version>0.1.5.RELEASE</boot.version>
-		<config.version>0.1.1.RELEASE</config.version>
-		<junit.version>4.8.2</junit.version>
-		<jackson.version>1.9.5</jackson.version>
-		<fileupload.version>1.2.1</fileupload.version>
-	</properties>
-
 	<dependencies>
 		<dependency>
 			<groupId>com.appleframework</groupId>
-			<artifactId>appleframework-core</artifactId>
-			<version>${apple.version}</version>
+			<artifactId>apple-core</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.appleframework</groupId>
-			<artifactId>appleframework-web</artifactId>
-			<version>${apple.version}</version>
+			<artifactId>apple-web</artifactId>
 		</dependency>
 
 		<dependency>
 			<groupId>com.appleframework.boot</groupId>
 			<artifactId>apple-boot-jetty</artifactId>
-			<version>${boot.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.appleframework.config</groupId>
 			<artifactId>apple-config-diamond</artifactId>
-			<version>${config.version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.hibernate</groupId>
