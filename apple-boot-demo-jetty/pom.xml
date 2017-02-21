@@ -24,7 +24,7 @@
 
 		<dependency>
 			<groupId>com.appleframework.boot</groupId>
-			<artifactId>apple-boot-jetty</artifactId>
+			<artifactId>apple-boot-jetty8</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.appleframework.config</groupId>

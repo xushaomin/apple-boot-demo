@@ -83,12 +83,12 @@
 			</dependency>
 			<dependency>
 				<groupId>com.appleframework.boot</groupId>
-				<artifactId>apple-boot-jetty</artifactId>
+				<artifactId>apple-boot-jetty8</artifactId>
 				<version>${boot.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.appleframework.boot</groupId>
-				<artifactId>apple-boot-tomcat</artifactId>
+				<artifactId>apple-boot-tomcat8</artifactId>
 				<version>${boot.version}</version>
 			</dependency>
 			<dependency>

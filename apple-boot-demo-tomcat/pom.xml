@@ -24,7 +24,7 @@
 
 		<dependency>
 			<groupId>com.appleframework.boot</groupId>
-			<artifactId>apple-boot-tomcat</artifactId>
+			<artifactId>apple-boot-tomcat8</artifactId>
 		</dependency>
 		
 		<dependency>
