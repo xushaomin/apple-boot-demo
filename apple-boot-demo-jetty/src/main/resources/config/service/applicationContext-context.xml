@@ -13,7 +13,7 @@
      		http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.0.xsd
           	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
 			http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
-	
+	<!-- 
 	<bean id="propertyConfigurer"
 		class="com.appleframework.config.diamond.spring.ExtendedPropertyPlaceholderConfigurer">
 		<property name="locations">
@@ -23,6 +23,7 @@
 		</property>
 		<property name="loadDiamond" value="false" />
 	</bean>
+	 -->
 	
 	 <!-- 启用注解识别功能 -->
 	<context:annotation-config />	
