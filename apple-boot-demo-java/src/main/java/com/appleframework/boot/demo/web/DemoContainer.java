@@ -1,8 +1,8 @@
 package com.appleframework.boot.demo.web;
 
-import com.appleframework.boot.AbstractContainer;
+import com.appleframework.boot.AbstractThreadContainer;
 
-public class DemoContainer extends AbstractContainer {
+public class DemoContainer extends AbstractThreadContainer {
 
 	@Override
 	public void doStart() {
